@@ -27,8 +27,8 @@ export default function About (): JSX.Element {
         md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
       />
 
-      <div className='space-y-8 px-0 md:px-10'>
-        <h4 className='text-3xl md:text-4xl font-semibold'>
+      <div className='space-y-5 px-0 md:px-10'>
+        <h4 className='text-4xl font-semibold'>
           Here is a{' '}
           <span className='underline decoration-[#f7ab0a]/50'>little</span>{' '}
           background
