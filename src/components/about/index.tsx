@@ -23,11 +23,11 @@ export default function About (): JSX.Element {
         }}
         viewport={{ once: true }}
         src='./perfil.png'
-        className='mt-28 mb-1 md:mt-0 md:mb-0 flex-shrink w-56 h-56 rounded-full object-cover
+        className='mt-24 mb-1 md:mt-0 md:mb-0 flex-shrink w-56 h-56 rounded-full object-cover
         md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
       />
 
-      <div className='space-y-10 px-0 md:px-10'>
+      <div className='space-y-8 px-0 md:px-10'>
         <h4 className='text-3xl md:text-4xl font-semibold'>
           Here is a{' '}
           <span className='underline decoration-[#f7ab0a]/50'>little</span>{' '}
