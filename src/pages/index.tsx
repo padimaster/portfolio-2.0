@@ -21,7 +21,7 @@ export default function Home (): JSX.Element {
         </section>
 
         {/* Experience */}
-        <section>
+        <section id='experience' className='snap-center'>
           <WorkExperience />
         </section>
 
