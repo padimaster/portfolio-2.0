@@ -23,8 +23,8 @@ export default function About (): JSX.Element {
         }}
         viewport={{ once: true }}
         src='./perfil.png'
-        className='mt-24 mb-1 md:mt-0 md:mb-0 flex-shrink w-56 h-56 rounded-full object-cover
-        md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
+        className='mb-1 md:mt-0 md:mb-0 flex-shrink w-56 h-56 rounded-full object-cover
+        md:rounded-lg md:w-64 md:h-95 xl:w-[350px] xl:h-[450px]'
       />
 
       <div className='space-y-5 px-0 md:px-10'>
@@ -36,7 +36,9 @@ export default function About (): JSX.Element {
 
         <p className='text-base'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias laboriosam nisi, in delectus suscipit id quas sunt voluptatibus nobis.
-
+          <span className='hidden md:inline'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias laboriosam nisi, in delectus suscipit id quas sunt voluptatibus nobis.
+          </span>
         </p>
       </div>
     </div>
